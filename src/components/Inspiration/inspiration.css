@@ -1,0 +1,23 @@
+.inspiration {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.inspiration-title {
+  width: 90vw;
+  padding-left: 3vw;
+  padding-top: 8vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.inspiration-cards {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}

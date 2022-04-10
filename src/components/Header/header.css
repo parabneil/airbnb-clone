@@ -1,0 +1,56 @@
+.header {
+  width: 100vw;
+  height: 25vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 4vh 5vw;
+  background-color: black;
+  color: white;
+  top: 0;
+  position: fixed;
+  transition: ease-in-out 200ms;
+}
+
+.header-dark {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 4vh 5vw;
+  background-color: white;
+  color: black;
+  top: 0;
+  position: fixed;
+  transition: ease-in-out 200ms;
+}
+
+.logo-container {
+  display: flex;
+  width: 7.5vw;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(215, 4, 107);
+}
+
+.logo-container img {
+  height: 35px;
+}
+
+.header-right {
+  display: flex;
+  width: 15vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-section {
+  border: 1px solid grey;
+  border-radius: 25%;
+  width: 4.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5vw;
+}

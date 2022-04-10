@@ -1,0 +1,49 @@
+.inspiration-card {
+  width: 25vw;
+  height: 35vh;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(230, 30, 77) 0%,
+    rgb(227, 28, 95) 50%,
+    rgb(215, 4, 107) 100%
+  );
+  overflow: hidden;
+  margin: 1%;
+}
+
+.inspiration-card:hover {
+  cursor: pointer;
+}
+
+.place-snapshot {
+  height: 75%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.place-snapshot img {
+  width: 110%;
+  transition: width 1s;
+}
+
+.place-snapshot img:hover {
+  width: 100%;
+}
+
+.place-info {
+  color: white;
+  height: 25%;
+  width: 100%;
+  display: flex;
+  padding-left: 25px;
+  padding-top: 15px;
+  flex-direction: column;
+  align-items: flex-start;
+}

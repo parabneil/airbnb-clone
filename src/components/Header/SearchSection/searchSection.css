@@ -1,0 +1,25 @@
+.search-section {
+  width: 15vw;
+  height: 6vh;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.search-section input {
+  border: none;
+}
+
+.search-button {
+  background-color: rgb(215, 4, 107);
+  color: white;
+  width: 2.1vw;
+  height: 2.1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}

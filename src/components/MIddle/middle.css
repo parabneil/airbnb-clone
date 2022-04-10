@@ -1,0 +1,41 @@
+.middle {
+  width: 90vw;
+  height: 80vh;
+  background-image: url("https://a0.muscache.com/im/pictures/23b047cd-19c9-42c0-a83b-2f4f6f25717b.jpg?im_w=1200");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 30vh;
+}
+
+.slogan {
+  color: white;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.flexible-button {
+  width: 11.5vw;
+  height: 4.5vh;
+  font-size: 14px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vh;
+  color: linear-gradient(90deg, rgb(111, 1, 156) 0%, rgb(198, 1, 126) 135.12%);
+}
+
+.flexible-button:hover {
+  background-color: whitesmoke;
+  width: 12vw;
+  height: 5vh;
+}
